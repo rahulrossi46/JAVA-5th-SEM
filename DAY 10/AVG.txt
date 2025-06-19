@@ -1,3 +1,0 @@
-->select avg(sal)
-->from emp
-->group by dept;

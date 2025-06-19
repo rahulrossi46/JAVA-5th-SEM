@@ -1,3 +1,0 @@
-select count(course)
-from stu
-group by course;
