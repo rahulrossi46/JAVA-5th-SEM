@@ -1,0 +1,18 @@
+create table product1(
+ product varchar(40),
+price int
+);
+
+insert into product1 values('dresses',25000);
+insert into product1 values('funiture',25000);
+insert into product1 values('steel',35000);
+
+
+
+
+select min(price),product
+from product1
+where price;
+select max(price),product
+from product1
+where price;
